@@ -102,9 +102,6 @@ class App extends Component {
 
       },7*1000);
 
-
-     
-
   }
 
   render() {

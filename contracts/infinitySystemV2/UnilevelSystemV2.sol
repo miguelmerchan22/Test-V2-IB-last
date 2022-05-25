@@ -305,7 +305,7 @@ contract InfinitySystemV2 is Proxy{
     return res;
   }
   function depositos(address _user, bool _infinity) public view returns(uint256[] memory, uint256[] memory, bool[] memory, uint256 ){
-    Investor memory usuario = investors[_user];
+    Investor memory   = investors[_user];
     Deposito[] memory dep = blokes[_user];
     uint256[] memory amount;
     uint256[] memory time;
